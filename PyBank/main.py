@@ -4,7 +4,8 @@ import csv
 
 # budget_csv = 'C:/Users/Module 3/Starter_Code/PyBank/Resources/budget_data.csv'
 # Path to collect data from the Resources folder
-budget_csv = os.path.join('..', 'Resources', 'budget_data.csv')
+budget_csv = os.path.join('..', 'Pybank', 'Resources', 'budget_data.csv')
+print("Trying to open:", os.path.abspath(budget_csv))
 output_file = "analysis.txt"
 if not os.path.exists(budget_csv):
     print("File does not exist.")

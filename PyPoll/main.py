@@ -1,8 +1,8 @@
 import os
 import csv
 # Path to collect data from the Resources folder
-# vote_csv = os.path.join('..', 'Resources', 'election_data.csv')
-vote_csv = r"C:\Users\Module 3\Starter_Code\PyPoll\Resources\election_data.csv"
+vote_csv = os.path.join('..', 'PyPoll', 'Resources', 'election_data.csv')
+# vote_csv = r"C:\Users\Module 3\Starter_Code\PyPoll\Resources\election_data.csv"
 output_file = "analysis.txt"
 if not os.path.exists(vote_csv):
     print("File does not exist.")
