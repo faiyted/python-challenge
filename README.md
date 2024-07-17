@@ -24,6 +24,8 @@ Create a Python script that analyzes the records to calculate each of the follow
 ** The greatest decrease in profits (date and amount) over the entire period
 
 In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+![image](https://github.com/user-attachments/assets/54d21dc7-3434-43c2-8979-8937006f5d02)
+
 
 # PyPoll Instructions
 Creating a Python script to analyze vote-counting process. You will be given a set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate".
@@ -37,3 +39,7 @@ Create a Python script that analyzes the records to calculate each of the follow
 ** The percentage of votes each candidate won with the total number of votes each candidate won
 
 ** The winner of the election based on popular vote
+
+In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+![image](https://github.com/user-attachments/assets/343fc7f5-e02c-4f1e-b2bd-d3630b25d080)
+
