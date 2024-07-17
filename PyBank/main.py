@@ -2,9 +2,9 @@ import os
 import csv
 
 
-budget_csv = 'C:/Users/Module 3/Starter_Code/PyBank/Resources/budget_data.csv'
+# budget_csv = 'C:/Users/Module 3/Starter_Code/PyBank/Resources/budget_data.csv'
 # Path to collect data from the Resources folder
-# budget_csv = os.path.join('..', 'Resources', 'budget_data.csv')
+budget_csv = os.path.join('..', 'Resources', 'budget_data.csv')
 output_file = "analysis.txt"
 if not os.path.exists(budget_csv):
     print("File does not exist.")
