@@ -18,7 +18,7 @@ else:
 
         # header row
         header = next(csvreader)
-
+        print(header)
         amount = []
         months = []
         changes = []
