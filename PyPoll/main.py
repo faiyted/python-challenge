@@ -13,7 +13,7 @@ else:
         csvreader = csv.reader(cscfile, delimiter=",")
         # header row
         header = next(csvreader)
-        print("File does not exist.")
+        print(header)
         votes = {}
         total_votes = 0
         persons = []
